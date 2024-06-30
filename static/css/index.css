@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ccc;
+}
+
+.menu-icon {
+  font-size: 24px;
+  
+}
+
+.logo {
+width: 51%;
+  padding: 11px;
+}
+
+.get-app {
+  padding: 5px 15px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.feature-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.icon-box {
+  background-color: #ff7f00;
+  padding: 8px;
+  border-radius: 15px;
+}
+
+
+.icon {
+width: 27px;
+  height: 19.5px;
+  
+}
+
+.feature-box p {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .features {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .feature-box {
+    margin: 0 10px;
+  }
+}
+ p {
+   padding: 10px;
+   margin: 0;
+ }
+.promo-content {
+  background-color: #1779BA;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.promo-image {
+    width: 43%;
+      margin-right: 0px;
+      position: relative;
+      top: 20px;
+}
+
+.promo-text {
+  color: #FFFFFF;
+  flex: 1;
+  padding-left: 18px;
+  
+}
+.promo-text  p {
+ 
+  padding: 0px;
+
+}
+
+.promo-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.promo-buttons img {
+      width: 90px;
+      margin-left: 19px;
+      margin-top: 5px;
+}
+.actions {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  
+    align-items: center;
+}
+
+.action-button {
+  padding: 10px 20px;
+  background-color: #ff6f00;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.action-button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
